@@ -1,6 +1,6 @@
 # FS Directory search with php
 
-
+# Quick Overview
 ``` php
 function txt_search( $string, $dir ) {
      foreach ( new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir)) as $f ) {
@@ -21,4 +21,9 @@ function txt_search( $string, $dir ) {
         }
      }
 }
+```
+
+# Usage
+``` php
+txt_search('text','./');
 ```
