@@ -1,6 +1,6 @@
 # FS Directory search with php
 
-FS_Directory A function to iterate over the specified directory recursively to search for the specified words.
+FS_Directory A function to iterate over the specified directory recursively to search for specified words
 
 # Quick Overview
 ``` php
