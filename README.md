@@ -1,8 +1,10 @@
 # FS Directory search with php
 
+FS_Directory Function that does an extensive search in the directory of file containing the script to access certain words contained within  instead of downloading the file and manually search for these words
+
 # Quick Overview
 ``` php
-function txt_search($string, $dir)
+function FS_Directory($string, $dir)
 {
     foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir)) as $f) {
         if (is_file($f->getPathname())) {
@@ -24,5 +26,5 @@ function txt_search($string, $dir)
 
 # Usage
 ``` php
-txt_search('text','./');
+FS_Directory('text','./');
 ```
