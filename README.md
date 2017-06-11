@@ -1,6 +1,6 @@
 # FS Directory search with php
 
-FS_Directory Function that does an extensive search in the directory of file containing the script to access certain words contained within  instead of downloading the file and manually search for these words
+FS_Directory a function to iterate over the specified directory recursively to search for the specified words
 
 # Quick Overview
 ``` php
