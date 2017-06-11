@@ -10,10 +10,10 @@ function txt_search( $string, $dir ) {
                 if (stripos($line, $string) !== false) {
                     $file_name = $f->getPathname();
                     $file_name = str_replace('.\\', '', $file_name);
-                  echo 'File name: '.$file_name; 
-                   $line = str_replace($string,'<b style="color: red;">'.$string.'</b>',$line);
-                   $line = str_replace('  ','',$line);
-                   echo "<br />[".$key."] => " .$line. "<br /><hr />";
+                    echo 'File name: '.$file_name; 
+                    $line = str_replace($string,'<b style="color: red;">'.$string.'</b>',$line);
+                    $line = str_replace('  ','',$line);
+                    echo "<br />[".$key."] => " .$line. "<br /><hr />";
                    
                 }
             }
