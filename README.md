@@ -28,3 +28,6 @@ function FS_Directory($string, $dir)
 ``` php
 FS_Directory('text','./');
 ```
+# Resulat
+
+<img src="https://i.imgur.com/9Xq3Vuv.png" alt="FS-Directory-search-with-php">
