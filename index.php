@@ -1,6 +1,6 @@
 <?php
 
-function txt_search($string, $dir)
+function FS_Directory($string, $dir)
 {
     foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir)) as $f) {
         if (is_file($f->getPathname())) {
@@ -22,5 +22,5 @@ function txt_search($string, $dir)
 }
 
 echo '<pre>';
-txt_search('something', './');
+FS_Directory('something', './');
 echo '</pre>';
